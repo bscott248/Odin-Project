@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct CampingLoggerApp: App {
+struct CampmarkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -22,9 +22,9 @@
     <key>LSRequiresIPhoneOS</key>
     <true/>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>CampingLogger uses your location to place a pin on the map for your campsite and to auto-fill the location name.</string>
+    <string>Campmark uses your location to place a pin on the map for your campsite and to auto-fill the location name.</string>
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>CampingLogger accesses your photo library so you can attach campsite photos to your trip logs.</string>
+    <string>Campmark accesses your photo library so you can attach campsite photos to your trip logs.</string>
     <key>UIApplicationSceneManifest</key>
     <dict>
         <key>UIApplicationSupportsMultipleScenes</key>

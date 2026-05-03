@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA000001000000000000001A /* CampingLoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000001B /* CampingLoggerApp.swift */; };
+		AA000001000000000000001A /* CampmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000001B /* CampmarkApp.swift */; };
 		AA000002000000000000001A /* CampingTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000001B /* CampingTrip.swift */; };
 		AA000003000000000000001A /* CampingSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003000000000000001B /* CampingSetup.swift */; };
 		AA000004000000000000001A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000001B /* ContentView.swift */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA000001000000000000001B /* CampingLoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingLoggerApp.swift; sourceTree = "<group>"; };
+		AA000001000000000000001B /* CampmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampmarkApp.swift; sourceTree = "<group>"; };
 		AA000002000000000000001B /* CampingTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingTrip.swift; sourceTree = "<group>"; };
 		AA000003000000000000001B /* CampingSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingSetup.swift; sourceTree = "<group>"; };
 		AA000004000000000000001B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,7 +33,7 @@
 		AA00000A000000000000001B /* MapPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPickerView.swift; sourceTree = "<group>"; };
 		AA00000B000000000000001B /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 		AA0000F0000000000000001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA0000FF000000000000001B /* CampingLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampingLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000FF000000000000001B /* Campmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		AA00AAA0000000000000001B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA0000FF000000000000001B /* CampingLogger.app */,
+				AA0000FF000000000000001B /* Campmark.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,21 +79,21 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AA00BBB0000000000000001B /* CampingLogger */ = {
+		AA00BBB0000000000000001B /* Campmark */ = {
 			isa = PBXGroup;
 			children = (
-				AA000001000000000000001B /* CampingLoggerApp.swift */,
+				AA000001000000000000001B /* CampmarkApp.swift */,
 				AA0000F0000000000000001B /* Info.plist */,
 				AA00BB00000000000000001B /* Models */,
 				AA00CC00000000000000001B /* Views */,
 			);
-			path = CampingLogger;
+			path = Campmark;
 			sourceTree = "<group>";
 		};
 		AA00EE00000000000000001B /* root */ = {
 			isa = PBXGroup;
 			children = (
-				AA00BBB0000000000000001B /* CampingLogger */,
+				AA00BBB0000000000000001B /* Campmark */,
 				AA00AAA0000000000000001B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA00TARG000000000000001A /* CampingLogger */ = {
+		AA00TARG000000000000001A /* Campmark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA00XCL0000000000000001B /* Build configuration list for PBXNativeTarget "CampingLogger" */;
+			buildConfigurationList = AA00XCL0000000000000001B /* Build configuration list for PBXNativeTarget "Campmark" */;
 			buildPhases = (
 				AA00SRC0000000000000001A /* Sources */,
 				AA00FFF0000000000000001A /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = CampingLogger;
-			productName = CampingLogger;
-			productReference = AA0000FF000000000000001B /* CampingLogger.app */;
+			name = Campmark;
+			productName = Campmark;
+			productReference = AA0000FF000000000000001B /* Campmark.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA00XCP0000000000000001B /* Build configuration list for PBXProject "CampingLogger" */;
+			buildConfigurationList = AA00XCP0000000000000001B /* Build configuration list for PBXProject "Campmark" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA00TARG000000000000001A /* CampingLogger */,
+				AA00TARG000000000000001A /* Campmark */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA000001000000000000001A /* CampingLoggerApp.swift in Sources */,
+				AA000001000000000000001A /* CampmarkApp.swift in Sources */,
 				AA000002000000000000001A /* CampingTrip.swift in Sources */,
 				AA000003000000000000001A /* CampingSetup.swift in Sources */,
 				AA000004000000000000001A /* ContentView.swift in Sources */,
@@ -307,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = CampingLogger/Info.plist;
+				INFOPLIST_FILE = Campmark/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.CampingLogger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Campmark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -335,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = CampingLogger/Info.plist;
+				INFOPLIST_FILE = Campmark/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -346,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.CampingLogger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Campmark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA00XCP0000000000000001B /* Build configuration list for PBXProject "CampingLogger" */ = {
+		AA00XCP0000000000000001B /* Build configuration list for PBXProject "Campmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA00CFG1000000000000001B /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA00XCL0000000000000001B /* Build configuration list for PBXNativeTarget "CampingLogger" */ = {
+		AA00XCL0000000000000001B /* Build configuration list for PBXNativeTarget "Campmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA00CFG3000000000000001B /* Debug */,
