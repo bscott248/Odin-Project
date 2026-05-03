@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001000000000000001A /* CampmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000001B /* CampmarkApp.swift */; };
+		AA000002000000000000001A /* CampingTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000001B /* CampingTrip.swift */; };
+		AA000003000000000000001A /* CampingSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003000000000000001B /* CampingSetup.swift */; };
+		AA000004000000000000001A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000001B /* ContentView.swift */; };
+		AA000005000000000000001A /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000005000000000000001B /* TripListView.swift */; };
+		AA000006000000000000001A /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006000000000000001B /* TripDetailView.swift */; };
+		AA000007000000000000001A /* AddEditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000007000000000000001B /* AddEditTripView.swift */; };
+		AA000008000000000000001A /* SetupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008000000000000001B /* SetupListView.swift */; };
+		AA000009000000000000001A /* AddEditSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000009000000000000001B /* AddEditSetupView.swift */; };
+		AA00000A000000000000001A /* MapPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A000000000000001B /* MapPickerView.swift */; };
+		AA00000B000000000000001A /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B000000000000001B /* StarRatingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000001000000000000001B /* CampmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampmarkApp.swift; sourceTree = "<group>"; };
+		AA000002000000000000001B /* CampingTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingTrip.swift; sourceTree = "<group>"; };
+		AA000003000000000000001B /* CampingSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingSetup.swift; sourceTree = "<group>"; };
+		AA000004000000000000001B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000005000000000000001B /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		AA000006000000000000001B /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		AA000007000000000000001B /* AddEditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTripView.swift; sourceTree = "<group>"; };
+		AA000008000000000000001B /* SetupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupListView.swift; sourceTree = "<group>"; };
+		AA000009000000000000001B /* AddEditSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditSetupView.swift; sourceTree = "<group>"; };
+		AA00000A000000000000001B /* MapPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPickerView.swift; sourceTree = "<group>"; };
+		AA00000B000000000000001B /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		AA0000F0000000000000001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000FF000000000000001B /* Campmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA00FFF0000000000000001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA00AAA0000000000000001B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000FF000000000000001B /* Campmark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA00BB00000000000000001B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002000000000000001B /* CampingTrip.swift */,
+				AA000003000000000000001B /* CampingSetup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA00CC00000000000000001B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000004000000000000001B /* ContentView.swift */,
+				AA000005000000000000001B /* TripListView.swift */,
+				AA000006000000000000001B /* TripDetailView.swift */,
+				AA000007000000000000001B /* AddEditTripView.swift */,
+				AA000008000000000000001B /* SetupListView.swift */,
+				AA000009000000000000001B /* AddEditSetupView.swift */,
+				AA00000A000000000000001B /* MapPickerView.swift */,
+				AA00000B000000000000001B /* StarRatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA00BBB0000000000000001B /* Campmark */ = {
+			isa = PBXGroup;
+			children = (
+				AA000001000000000000001B /* CampmarkApp.swift */,
+				AA0000F0000000000000001B /* Info.plist */,
+				AA00BB00000000000000001B /* Models */,
+				AA00CC00000000000000001B /* Views */,
+			);
+			path = Campmark;
+			sourceTree = "<group>";
+		};
+		AA00EE00000000000000001B /* root */ = {
+			isa = PBXGroup;
+			children = (
+				AA00BBB0000000000000001B /* Campmark */,
+				AA00AAA0000000000000001B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA00TARG000000000000001A /* Campmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00XCL0000000000000001B /* Build configuration list for PBXNativeTarget "Campmark" */;
+			buildPhases = (
+				AA00SRC0000000000000001A /* Sources */,
+				AA00FFF0000000000000001A /* Frameworks */,
+				AA00RES0000000000000001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Campmark;
+			productName = Campmark;
+			productReference = AA0000FF000000000000001B /* Campmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00PROJ000000000000001A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA00TARG000000000000001A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA00XCP0000000000000001B /* Build configuration list for PBXProject "Campmark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00EE00000000000000001B;
+			productRefGroup = AA00AAA0000000000000001B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA00TARG000000000000001A /* Campmark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA00RES0000000000000001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA00SRC0000000000000001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001000000000000001A /* CampmarkApp.swift in Sources */,
+				AA000002000000000000001A /* CampingTrip.swift in Sources */,
+				AA000003000000000000001A /* CampingSetup.swift in Sources */,
+				AA000004000000000000001A /* ContentView.swift in Sources */,
+				AA000005000000000000001A /* TripListView.swift in Sources */,
+				AA000006000000000000001A /* TripDetailView.swift in Sources */,
+				AA000007000000000000001A /* AddEditTripView.swift in Sources */,
+				AA000008000000000000001A /* SetupListView.swift in Sources */,
+				AA000009000000000000001A /* AddEditSetupView.swift in Sources */,
+				AA00000A000000000000001A /* MapPickerView.swift in Sources */,
+				AA00000B000000000000001A /* StarRatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA00CFG1000000000000001B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_LOOPS = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00CFG2000000000000001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_LOOPS = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA00CFG3000000000000001B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Campmark/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Campmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA00CFG4000000000000001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Campmark/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Campmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA00XCP0000000000000001B /* Build configuration list for PBXProject "Campmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00CFG1000000000000001B /* Debug */,
+				AA00CFG2000000000000001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00XCL0000000000000001B /* Build configuration list for PBXNativeTarget "Campmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00CFG3000000000000001B /* Debug */,
+				AA00CFG4000000000000001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA00PROJ000000000000001A /* Project object */;
+}
